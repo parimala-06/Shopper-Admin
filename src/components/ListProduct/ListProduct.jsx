@@ -30,8 +30,9 @@ const ListProduct = () => {
   }
 
   const displayProductImage = (base64Image) => {
-    return `data:image/jpeg;base64,${base64Image}`;
+    return base64Image;
   };
+  
   
   return (
     <div className='listproduct'>
