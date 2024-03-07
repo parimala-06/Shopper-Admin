@@ -11,7 +11,7 @@ const Admin = () => {
         <Sidebar/>
         <Routes>
           <Route path='/addproduct' element={<AddProduct/>}/>
-          <Route path='/products' element={<ListProduct/>}/>
+          <Route path='/allproducts' element={<ListProduct/>}/>
         </Routes>
     </div>
   )
