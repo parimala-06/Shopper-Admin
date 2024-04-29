@@ -28,7 +28,7 @@ This is an e-commerce admin dashboard built with React and React Router. It prov
 - React Router
 - CSS
 - JavaScript Fetch API for HTTP requests
-- Local storage for authentication tokens (if any)
+- MongoDB 
 
 ## Project Structure
 
@@ -39,8 +39,8 @@ This is an e-commerce admin dashboard built with React and React Router. It prov
 - **Sidebar.jsx**: Component for sidebar navigation.
 - **Navbar.jsx**: Component for the top navigation bar.
 - **assets/**: Contains images and icons used across the project.
-- **baseURL**: The base URL for API endpoints. (Ensure this is set in a utility file or an environment variable.)
-
+- **baseURL**: The base URL for API endpoints.
+  
 ## Getting Started
 
 To run the project locally, follow these steps:
@@ -48,7 +48,7 @@ To run the project locally, follow these steps:
 ### Prerequisites
 
 - Node.js and npm/yarn
-- A text editor (e.g., Visual Studio Code)
+- Visual Studio Code
 
 ### Installation
 
